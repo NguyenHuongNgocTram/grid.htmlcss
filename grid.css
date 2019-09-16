@@ -1,0 +1,37 @@
+.header{
+	grid-area: header ;
+	background-color: blue;
+}
+.header1{
+	grid-area: headers;
+	background-color: yellow;
+}
+.header2{
+	grid-area: headerss;
+	background-color: green;
+}
+.top{
+	grid-area:tops;
+	background-color: red; 
+}
+.menu{
+	grid-area: menu;
+	background-color: orange;
+}
+.content{
+	grid-area: contentss;
+	background-color: violet;
+}
+.footer{
+	grid-area: footer;
+	background-color: pink;
+}
+.grid-container{
+	display: grid;
+	grid-template-areas: 
+	'header headers headerss'
+	'header tops tops'
+	'menu contentss contentss'
+	'menu contentss contentss'
+	'footer footer footer';
+}
